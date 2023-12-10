@@ -5,16 +5,13 @@ pub mod day4;
 pub mod day5;
 pub mod day6;
 pub mod day7;
+pub mod day8;
+pub mod day9;
 
 fn main() {
-    //  let input = std::fs::read_to_string("./src/day7/input.txt")
-    //      .expect("Something went wrong reading the file");
-    //
-    //  let output = day7::part1(&input);
-
-    let input = std::fs::read_to_string("./src/day7/input.txt")
+    let input = std::fs::read_to_string("./src/day9/input.txt")
         .expect("Something went wrong reading the file");
-    let output = day7::day07_p1_from_reddit(&input);
+    let output = day9::part2(&input);
 
     println!("{}", output);
 }
